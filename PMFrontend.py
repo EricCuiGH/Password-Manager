@@ -1,9 +1,9 @@
-import PasswordManager
+import PMBackend
 import PySimpleGUI as sg
 
 def main():
     password = {}
-    pm = PasswordManager.PasswordManager()
+    pm = PMBackend.PasswordManager()
 
     sg.theme('Dark Blue 3')
 
