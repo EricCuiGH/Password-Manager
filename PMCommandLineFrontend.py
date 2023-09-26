@@ -1,8 +1,8 @@
-import PasswordManager
+import PMBackend
 
 def main():
     password = {}
-    pm = PasswordManager.PasswordManager()
+    pm = PMBackend.PasswordManager()
 
     print("""What do you want to do?
     (1) Create a new key
